@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+/* font-family: 'Julius Sans One', sans-serif;   For navigation bar */
+/* font-family: 'Satisfy', cursive;  for brand name */
+/* font-family: 'Estonia', cursive;  for footer and premium text  */
+/* font-family: 'Outfit', sans-serif; general font  */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+h1{
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+h2 {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.product-font {
+    font-family: 'Estonia', cursive;
+    line-height: 2;
+    font-size: 40px;
+}
+
+.main-intro {
+    background-image: url('images/tea-background.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 60px 100px;
+    font-family: 'Julius Sans One', sans-serif;
+    flex-direction: row;
+}
+
+nav ul li{
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: azure;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.intro-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.title {
+    font-family: 'Julius Sans One', sans-serif;
+    color: #ffffffd9;
+    font-size: 60px;
+}
+
+.brand-name {
+    font-family: 'Satisfy', cursive;
+    color: #ffffffd9;
+    font-size: 70px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.shop-btn {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 20px;
+    color: #ffffffd9;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #ffffffd9;
+    padding: 10px;
+    margin-bottom: 150px;
+    cursor: pointer;
+}
+
+.shop-btn:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+
+.products {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.products-heading {
+    font-size: 30px;
+}
+
+.all-products {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.product {
+    margin-top: 80px;
+    padding-bottom: 40px;
+}
+
+.product:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 1s;
+}
+
+.price {
+    margin-top: 20px;
+}
+
+.shop-btn2 {
+    margin-top: 30px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: #000000;
+    border-style: none;
+    border-color: #ffffffd9;
+    padding: 10px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.shop-btn2:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 1s;
+}
+
+.about-us {
+    text-align: center;
+    
+}
+
+.about-paragraph{
+    width: 550px;
+    margin-top: 70px;
+    padding-left: 20px;
+}
+
+.about-content{
+    margin-top: 50px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+.about-img {
+    width: 500px;
+    margin-top: 70px;
+    border-radius: 100% 100% 50% 50%;
+}
+
+
+footer {
+    background-color: #e6e7ea;
+    padding-left: 100px;
+    padding: 50px 150px;
+}
+
+.list {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.list-content a{
+    text-decoration: none;
+    color: black;
+    line-height: 1.8;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.follow-us ul {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.subscribe-email {
+    font-size: 18px;
+    height: 40px;
+    width: 300px;
+    border-style: solid;
+    border-color: black;
+}
+
+.subscribe-btn {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 20px;
+    height: 40px;font-size: 20px;
+    color: white;
+    background-color: #000000;
+    border-style: none;
+    border-color: #ffffffd9;
+    padding: 10px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.subscribe-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 1s;
+}
